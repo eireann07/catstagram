@@ -1,27 +1,8 @@
-import React, { useState } from 'react';
-import './App.css';
-import Navbar from './Cmpnts/Navbar'
-// import Home from "/ Components/Home"
-// import Name from '/Components/Name'
-import Post from './Cmpnts/Post'
-//import{ BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Post from './Components/Post'
 
-const App = (props) => {
-  //const searchFun = (e) =>{
-    //console.log(e)
- // }
-  const [post, setPost] = useState([]);
-  const [url, setUrl] = useState("");
-
-  const makePost = () => {
-    setPost([...post, url]);
-    setUrl(' ');
-  }
-
-  console.log(post);
- 
-  return(
-  <div className="App">
+const Home = () => {
+    return(
+        <div className="App">
       <Navbar/>
       {/* <Likes/>
       <Dislikes/>  */}
@@ -36,7 +17,7 @@ const App = (props) => {
         Submit
         </button>
       </div>
-      {post === " "? (
+      {post == " "? (
         <div>no posts</div>
       ) : (
         <div>
@@ -58,7 +39,6 @@ const App = (props) => {
       </form> */}
       
     </div>
-    );
+    )
 }
-export default App;
-
+export default Home;

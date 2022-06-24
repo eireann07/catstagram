@@ -1,5 +1,36 @@
+body{
+  margin: 0;
+  background-color: #FAF8F8;
+}
+
+button{
+  background-color: #fff;
+  color: #17202A;
+  border: none;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+form{
+  position: relative;
+  padding-top: 3%;
+}
+
+input{
+  border: 1px solid; 
+  border-color: #C8C7C3;
+  font-size: 14;
+  padding: 5px 10px;
+  width: 25%;
+}
+
+.active{
+  color: #fff;
+}
+
 .App {
   text-align: center;
+  margin: 0;
 }
 
 .App-logo {
@@ -28,6 +59,30 @@
   color: #61dafb;
 }
 
+.boxed{
+  border: 1px solid; 
+  border-color: #C8C7C3;
+  background-color: #fff;
+  margin-top: 0;
+}
+
+.captions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 444px;
+  margin-left: 34.55%;
+  margin-top:0;
+  font-size: 12px;
+}
+
+.flex-gap {
+  gap: 330px;
+  margin-top: 0;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +90,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.images{
+  width: 31%;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.navbar{
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.1rem 0rem;
+  background-color: #F15656;
+  color: #fff;
+  margin: 0;
+}
+
+.navitem{
+  padding: 0.5rem 1rem;
+  list-style-type: none;
+  font-style: bold;
+}
+
+.submit{
+  background-color: #E3B64E ;
+  color: #fff;
+  border: solid;
+  border-color: #E3B64E ;
+  font-size: 14px;
+  padding: 5px 10px;
 }
