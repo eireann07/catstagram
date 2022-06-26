@@ -5,7 +5,7 @@ const Post = (props) => {
   return ( 
     <>
       {props.post === ' ' ? <div>no post </div> : <div> <div className="postDiv"> 
-      <img src={props.post} alt="ginger-kitten" className="images" />
+      <img src={props.post} alt="ruh-roh!" className="images" />
       <Like/>
     </div> </div>}
     </>

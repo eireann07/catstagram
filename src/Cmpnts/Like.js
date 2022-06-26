@@ -5,7 +5,7 @@ const Like = () => {
     return (
         <div className='captions boxed flex-gap'>
         <p>{count} Likes</p>
-        <button onClick={() => setCount(count + 1)}>Like</button> 
+        <button class='like' onClick={() => setCount(count + 1)}>Like</button> 
         </div>
         
         )
